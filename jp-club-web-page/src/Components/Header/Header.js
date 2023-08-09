@@ -5,11 +5,21 @@ function Header(){
     return(
     
 
+        // Corpo do Header
+        
         <header>
+
+            {/* Area de Navegacao */}
+
             <nav>
+
+                {/* Bandeira do Japao Icone */}
+
                 <div>
                     <a href="../../App.js"><img src = {japanIcon} className='JapanIcon' alt="JapanIcon"/> </a>
                 </div>
+
+            {/* Header Botoes */}
 
             <div className="Categorias">
                 <div id='sub'>
@@ -28,6 +38,9 @@ function Header(){
                     <a href="">contato</a>
                 </div>
             </div>
+
+            {/* Idioma Botoes */}
+            
             <div className='lang'>
                 <div id='subLang'>
                     <a href="">jp</a>
