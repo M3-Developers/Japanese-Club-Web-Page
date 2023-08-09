@@ -1,0 +1,94 @@
+@font-face{
+    font-family: Arial Rounded MT Bold;
+    font-weight: 800;
+    src: url(../Assets/font/arial-rounded-mt-bold.ttf);
+}
+
+@font-face{
+  font-family: Jakarta;
+  font-weight: 300;
+  src: url(../Assets/font/PlusJakartaSans-Light.ttf);
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    background-color: #DB180F;
+    display: flex;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.JapanIcon{
+    width: 6.5vh;
+    height: 6.5vh;
+    position: relative;
+    margin: 1.5vh 3vh 0.875vh 17vh;
+}
+
+.Categorias{
+    flex-direction: row;
+    display: flex;
+    margin-left: 1.5vh;
+}
+
+.Categorias #sub{
+    margin: 1.5vh 0 0 0;
+    padding: 0.625vh 1vh 1.5vh 2.5vh;
+}
+
+.Categorias #sub:hover{
+    position: relative;
+    padding: 2.5vh 0.005vh;
+    margin: -0.57vh 1vh -1.7vh 2.5vh;
+    border-bottom: 0.69vh solid #fff;
+}
+
+.Categorias a{
+    padding: 1vh 1.5vh 4vh 1.5vh;
+    color: #ffff;
+    font: 2.7vh Arial Rounded MT Bold;
+    text-decoration: none;
+}
+
+.lang{
+    flex-direction: row;
+    display: flex;
+    margin-left: auto;
+    margin-right: 17vh;
+    justify-content: center;
+}
+
+.lang #subLang{
+    margin: 1.5vh 0vh 2vh 1.3vh;
+    padding: 0.5vh 0vh 1vh 0vh;
+    background-color: #B0B0B059;
+    border-style: solid;
+    border-width: 0.125rem;
+    border-color: #ffff;
+}
+
+.lang #subLang:hover{
+    background-color: #ffff;
+    transition: 0.5s;
+    color: #f15836;
+}
+
+.lang a:hover{
+    transition: 0.5s;
+    color: #f15836;
+}
+
+.lang a{
+    color: #ffff;
+    font: 2.7vh Arial Rounded MT Bold;
+    text-decoration: none;
+    padding: 1vh 1.5vh 4vh 1.5vh;
+}
