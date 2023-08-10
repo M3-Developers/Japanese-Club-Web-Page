@@ -1,13 +1,15 @@
+/* Fontes */
+
 @font-face{
     font-family: Arial Rounded MT Bold;
     font-weight: 800;
-    src: url(../Assets/font/arial-rounded-mt-bold.ttf);
+    src: url(../font/arial-rounded-mt-bold.ttf);
 }
 
 @font-face{
   font-family: Jakarta;
   font-weight: 300;
-  src: url(../Assets/font/PlusJakartaSans-Light.ttf);
+  src: url(../font/PlusJakartaSans-Light.ttf);
 }
 
 /* Corpo do Header */

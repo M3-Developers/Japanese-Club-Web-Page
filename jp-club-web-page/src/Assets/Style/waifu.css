@@ -1,0 +1,17 @@
+/* Formatacao Primaria da Imagem Waifu */
+
+
+/* Espaco Div Ocupado pela Imagem */
+
+.container{
+    position: relative;
+  height: auto;
+  width: auto;
+}
+
+/* Imagem Waifu Ajusta Tamanho Automaticamente */
+
+.waifu{
+  width: auto;
+  height: 100vh;
+}

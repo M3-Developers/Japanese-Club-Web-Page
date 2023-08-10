@@ -1,0 +1,114 @@
+/* Fontes */
+
+@font-face{
+  font-family: Arial Rounded MT Bold;
+  font-weight: 800;
+  src: url(../font/arial-rounded-mt-bold.ttf);
+}
+
+@font-face{
+font-family: Jakarta;
+font-weight: 300;
+src: url(../font/PlusJakartaSans-Light.ttf);
+}
+
+/* Formatacao Banner Dinamico */
+
+.selected {
+  width: 100%;
+}
+
+/* Espaco Primario Formatado Ocupado Pelo Banner */
+
+main {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  height: 75vh;
+  position: absolute;
+}
+
+#banner-container {
+  position: relative;
+  width: 100%;
+  height: 75vh;
+  overflow: hidden;
+}
+
+/* Formatacao de Itens Internos do Banner */
+
+.banner-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 75vh;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  background-size: cover; /* Torna a imagem de fundo responsiva */
+  background-repeat: no-repeat; /* Evita a repetição da imagem */
+  background-position: center; /* Centraliza a imagem de fundo */
+}
+
+/* Opacidade de Transicao de Imagem */
+
+.banner-item.active {
+  opacity: 1;
+}
+
+/* Formatacao de Imagem do Banner */
+
+.banner-image {
+  width: 100%;
+  height: 75vh;
+  object-fit: cover;
+}
+
+/* Formatacao Sombreado de Destaque Esquerdo do Banner */
+
+.banner-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 15vh;
+  padding: 37.5vh;
+  background-color: rgba(0, 0, 0, 0.33); /* Fundo sombreado */
+  color: #fff;
+}
+
+/* Formatacao de Espaco Primario de Texto */
+
+.banner-text {
+  position: absolute;
+  top: 8vh;
+  left: 7vh;
+  max-width: 80vh;
+}
+
+/* Formatacao de Titulo */
+
+.banner-title {
+  font-family: 'Arial Rounded MT Bold', sans-serif;
+  font-size: 7vh;
+  margin: 0;
+}
+
+/* Formatacao de Descricao */
+
+.banner-description {
+  margin: 10vh 0 0;
+  font-family: 'Jakarta', sans-serif;
+  font-size: 3.5vh;
+}
+
+/* Formatacao e Posicionamento de Espaco Primario de Waifu */
+
+.waifuDiv{
+  position: absolute;
+  display: flex;
+  justify-content: flex-end; /* Alinha os itens à direita */
+  align-items: center; /* Alinha verticalmente os itens */
+  height: 100vh;
+  right: 3%; /* Alinha a imagem a direita com margem */
+  padding-top: 13%;
+}

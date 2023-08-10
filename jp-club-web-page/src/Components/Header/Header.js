@@ -1,4 +1,5 @@
-import headerStyle from '../../Style/Header.css';
+import React from 'react';
+import headerStyle from '../../Assets/Style/header.css';
 import japanIcon from '../../Assets/img/japanIcon.svg';
 
 function Header(){
