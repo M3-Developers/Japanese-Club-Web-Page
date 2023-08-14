@@ -1,0 +1,159 @@
+/* Fontes */
+
+@font-face{
+    font-family: Arial Rounded MT Bold;
+    font-weight: 800;
+    src: url(../font/arial-rounded-mt-bold.ttf);
+  }
+  
+  @font-face{
+  font-family: Jakarta;
+  font-weight: 300;
+  src: url(../font/PlusJakartaSans-Light.ttf);
+  }
+
+/* Espaco Primario Formatado Ocupado Pelo Menu Conteudo */
+  
+.menu {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    margin-top: 80vh;
+    flex-direction: column;
+  }
+
+/* Espaco Formatado Resumo */
+
+article{
+    height: 50vh;
+    padding: 0 30vh;
+    margin: 0 0;
+}
+
+/* Resumo Barra Vermelha */
+
+.barra{
+    width: 110vh;
+    height: 0.50vh;
+    border-radius: 0.1rem;
+    background-color: #BA0028;
+}
+
+/* Resumo Titulo */
+
+h3{
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    font-size: 6vh;
+    color: #FF0000;
+    margin-bottom: 2vh;
+}
+
+/* Resumo Descricao */
+
+.description{
+    margin: 8vh 0;
+    font-family: 'Jakarta', sans-serif;
+    font-size: 3.5vh;
+    width: 110vh;
+}
+
+/* Espaco Primario Formatado Sessao Cards */
+
+section{
+    margin: 0px;
+    flex-direction: column;
+    height: auto;
+    padding: 0 0;
+    margin: 0 0;
+}
+
+/* Titulo Sessao Cards */
+
+h4{
+    padding: 0 30vh;
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    font-size: 6vh;
+    color: #FF0000;
+    margin-bottom: 2vh;
+}
+
+/* Sessao Cards Linha Pontilhada */
+
+hr{
+    width: auto;
+    height: 0.50vh;
+    border-top: 0.6vh dashed #BA0028;
+}
+
+/* Espaco Interno Sessao Cards */
+
+.cardsContainer{
+    justify-content: space-around;
+    margin: 10vh 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    position: absolute;
+    align-items: center;
+}
+
+/* Sessao Cards Barra Background */
+
+.barra1{
+    margin: 20vh 0;
+    width: 100%;
+    height: 22vh;
+    border-radius: 0.1rem;
+    background-color: #BA0028;
+    position: absolute;
+}
+
+/* Cards Formatacao Geral */
+
+.card {
+    border-style: solid;
+    border-width: 0.5vh;
+    border-color: #e0e0e0;
+    border-radius: 0.90rem;
+    height: 34vh;
+    width: 25vh;
+    position: relative;
+
+    display: flex;
+    color: #ffffff00;
+    text-decoration: none;
+    justify-content: center;
+    background-image: url(../../Assets/img/rukia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Card Alinhamento Titulo Interno */
+
+.card p{
+    position: absolute;
+    margin: 25vh 0 0 0 ;
+}
+
+/* Card Efeito */
+
+.card:hover{
+    box-shadow: 0vh -18vh 0vh -5vh  rgba(0,0,0,.8) inset;
+
+    text-decoration: none;
+    transition: 0.7s;
+    color: #ffffff;
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    font-size: 2.8vh;
+}
+
+/* Card Formatacao Ancora */
+
+a {
+    text-decoration: none;
+}

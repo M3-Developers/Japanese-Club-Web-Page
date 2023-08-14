@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'; // Import do React Habilitando Funcoes do Banner
-import bannerStyle from '../../Assets/Style/banner.css';
+import bannerStyle from '../../Assets/Style/banner.css'; //Import Folha de Estilo
 import Waifu from './PersonagVirtual.js'; // Import de Componente Waifu
 
 
@@ -48,14 +48,15 @@ function Banner() {
 
        <div id='banner-container'> {/* Espaco Primario Interno Banner */}
 
-        {/* Atribuicao de Funcao Banner */}
 
+        {/* Atribuicao de Funcao Banner */}
         {bannerData.map((item, index) => (
           <div
             key={index}
             className={`banner-item ${showCurrentItem(index)}`}
             style={{ backgroundImage: `url(${item.image})` }}
           >
+
 
             <div className='banner-overlay'> {/* Sombreado de Destaque Esquerdo do Banner */}
 
