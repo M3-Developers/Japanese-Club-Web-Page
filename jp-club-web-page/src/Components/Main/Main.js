@@ -1,4 +1,5 @@
 import React from 'react'; // Import React
+import fontsStyle from '../../Assets/Style/fonts.css'
 import mainStyle from '../../Assets/Style/main.css'; //Import Folha de Estilo
 
 function Main(){
@@ -18,7 +19,7 @@ function Main(){
                     <div className='barra' />
 
                         {/* Resumo Descricao */}
-                        <p className='description'>O clube de japonês do salotti é um grupo altamente preparado e sempre se mantem em desenvolvimento de acordo com as regras escolares</p>
+                        <h6 className='description'>O clube de japonês do salotti é um grupo altamente preparado e sempre se mantem em desenvolvimento de acordo com as regras escolares</h6>
 
                     {/* Resumo Barra Vermelha  */}
                     <div className='barra' />

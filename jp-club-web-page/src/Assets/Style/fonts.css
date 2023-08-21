@@ -1,0 +1,40 @@
+/* Fontes */
+
+@font-face{
+    font-family: Arial Rounded MT Bold;
+    font-weight: 800;
+    src: url(../font/arial-rounded-mt-bold.ttf);
+  }
+  
+  @font-face{
+  font-family: Jakarta;
+  font-weight: 300;
+  src: url(../font/PlusJakartaSans-Light.ttf);
+  }
+
+  /* Resumo Titulo */
+
+h3{
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    font-size: 6vh;
+    color: #FF0000;
+    margin-bottom: 2vh;
+}
+
+  /* Titulo Sessao Cards */
+
+h4{
+    padding: 0 30vh;
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    font-size: 6vh;
+    color: #FF0000;
+    margin-bottom: 2vh;
+}
+
+    /* Descrição */
+    
+h6{
+    font-family: 'Jakarta', sans-serif;
+    font-size: 3.5vh;
+    width: 110vh;
+}
