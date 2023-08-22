@@ -1,6 +1,6 @@
 import React from 'react'; // Import React
-import fontsStyle from '../../Assets/Style/fonts.css'
-import mainStyle from '../../Assets/Style/main.css'; //Import Folha de Estilo
+import fontsStyle from '../../Assets/Style/Uni/fonts.css'
+import mainStyle from '../../Assets/Style/Page1/main.css'; //Import Folha de Estilo
 
 function Main(){
         return(

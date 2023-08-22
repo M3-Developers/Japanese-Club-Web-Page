@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'; // Import do React Habilitando Funcoes do Banner
-import bannerStyle from '../../Assets/Style/banner.css'; //Import Folha de Estilo
+import bannerStyle from '../../Assets/Style/Page1/banner.css'; //Import Folha de Estilo
 import Waifu from './PersonagVirtual.js'; // Import de Componente Waifu
 
 

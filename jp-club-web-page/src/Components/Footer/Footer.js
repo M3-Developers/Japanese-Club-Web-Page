@@ -1,5 +1,5 @@
 import React from 'react'; // Import React
-import footerStyle from '../../Assets/Style/footer.css'; // Import Folha de Estilo
+import footerStyle from '../../Assets/Style/Uni/footer.css'; // Import Folha de Estilo
 
 
 function Footer(){

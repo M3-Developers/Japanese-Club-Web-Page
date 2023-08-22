@@ -1,5 +1,5 @@
 import React from 'react';
-import headerStyle from '../../Assets/Style/header.css';
+import headerStyle from '../../Assets/Style/Uni/header.css';
 import japanIcon from '../../Assets/img/japanIcon.svg';
 
 function Header(){
