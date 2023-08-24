@@ -1,33 +1,38 @@
 import fontsStyle from '../../Assets/Style/Uni/fonts.css'
 import SobreStyle from '../../Assets/Style/Page2/sobre.css'
-import ClubeImg from '../../Assets/img/ClubeImg.jpg'
-import ImgStyle from '../../Assets/Style/Page2/imagens.css'
+import clubeImg from '../../Assets/img/ClubeImg.jpg'
 
 function Clube() {
     return(
-        <div classname = 'Td'>
-            
-        <h2 classname = 'TitleSobre'>sobre</h2>
-        
-        <div className = 'MarginTxt'>
+        <div className='menu'>
 
-        <h3>Clube da Lingua Japonesa</h3>
+                {/* Espaco Resumo */}
+                <article>
 
-        <div className='ImgAlignt'>
+                    <p className='impactTitles'>sobre</p>
 
-        <div>
-            <h6>   O clube de japonês do salotti é um grupo altamente preparado e sempre se mantem em desenvolvimento de acordo com as regras escolares
+                    {/* Resumo Barra Vermelha  */}
+                    <div className='barra' />
+
+                    {/* Resumo Titulo */}
+                    <h3>Clube da Língua Japonesa</h3>
+
+                        {/* Resumo Descricao */}
+                        <h6 className='description'>    O clube de japonês do salotti é um grupo altamente preparado e sempre se mantem em desenvolvimento de acordo com as regras escolares
     O clube de japonês do salotti é um grupo altamente preparado e sempre se mantem em desenvolvimento de acordo com as regras escolares
     O clube de japonês do salotti é um grupo altamente preparado e sempre se mantem em desenvolvimento de acordo com as regras escolares</h6>
-        </div>
-        
-        <div>
-            <img src ={ClubeImg} className='imgA'/> 
-        </div>
+                        
+                            <img src = {clubeImg} className='ClubImg' alt="ClubeImagem"/>
 
-        </div>
+                            <iframe 
+                            src="https://www.youtube.com/embed/kfyfMtHd9Ww" 
+                            width="560"
+                            height="315"  
+                            frameborder="0"
+                            allowfullscreen >
+                            </iframe>
 
-        </div>
+                </article>
         </div>
     )
 }

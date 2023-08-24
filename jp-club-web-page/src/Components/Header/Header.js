@@ -32,11 +32,11 @@ function Header(){
                 </div>
 
                 <div id='sub'>
-                    <a href="">mídias</a>
+                    <a href="">blog</a>
                 </div>
 
                 <div id='sub'>
-                    <a href="">contato</a>
+                    <a href="">mídias</a>
                 </div>
             </div>
 

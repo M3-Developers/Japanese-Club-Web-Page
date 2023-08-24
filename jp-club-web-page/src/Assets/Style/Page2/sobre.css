@@ -1,16 +1,170 @@
-.ImgAlignt{
+/* Espaco Primario Formatado Ocupado Pelo Menu Conteudo */
+  
+.menu {
     display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 5vh;
+    flex-direction: column;
+  }
+
+/* Espaco Formatado Resumo */
+
+article{
+    height: auto;
+    align-self: center;
+    margin: 0 0 10vh 0;
+    padding: 0;
 }
 
-.Td{
-    margin: 20vh;
+/* Resumo Barra Vermelha */
+
+.barra{
+    position: relative;
+    width: 180vh;
+    height: 0.50vh;
+    border-radius: 0.1rem;
+    background-color: #BA0028;
+    margin: 0 0 6vh 0;
 }
 
-.TitleSobre{
-    margin-left: 50%;
+/* Resumo Descricao */
+
+.description{
+    position: absolute;
+    margin: 12vh 2vh;
+    text-align: justify;
 }
 
-.MarginTxt{
-    margin: 10vh 20vh 10vh 20vh;
+.ClubImg{
+    position: relative;
+    display: flex;
+    margin: 0 0 0 120vh;
+    width: 50vh;
+    border: 4px solid #BA0028;
 }
 
+h3{
+    margin: 0 2vh;
+}
+
+iframe{
+    position: relative;
+    margin: 15vh 0 0 40vh;
+    height: 59.0625vh;
+    width:  105vh;
+}
+
+
+
+
+.menuMascote{
+    background-color: #CFD1D2;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 5vh;
+    flex-direction: column;
+}
+
+.subTitleHaru{
+    margin-left: 4vh;
+    margin-bottom: 7vh;
+}
+
+.mascoteTitle{
+    margin: 10vh 0 0 4.5vh;
+}
+
+.descriptionHaru{
+    position: absolute;
+    margin: 12vh 2vh;
+    margin-left: 4.5vh;
+    text-align: justify;
+    width: 100vh;
+}
+
+.haruIcon{
+    position: relative;
+    display: flex;
+    margin: -7vh 0 0 120vh;
+    height: 80vh;
+}
+
+
+
+.menuCriadores{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    position: relative;
+    flex-direction: column;
+}
+
+.criadoresTitle{
+    margin: 7vh 0 10vh -5vh;
+}
+
+.criadoresImg{
+    position: relative;
+    height: 55vh;
+    width: 60vh;
+}
+
+.saibaMais a{
+    text-decoration: none;
+    color: #626262;
+    padding: 1.5vh 3.4vh;
+    font-size: 3.5vh;
+}
+
+.saibaMais{
+    padding: 0.7vh 0;
+    text-align: center;
+    height: 4.5vh;
+    width: 25vh;
+    border: 0.5vh solid #9A9A9A;
+    border-radius: 2.5vh;
+    margin-top: 8vh;
+}
+
+.criadoresConteiner{
+    border: 0.5vh solid #CFD1D2;
+    border-radius: 0.2vh;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.descriptionCriadores{
+    margin: 14vh 10vh 12vh 10vh;
+    width: auto;
+}
+
+.descriptionCriadores{
+    color: #231D19;
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    font-size: 4vh;
+}
+
+.descriptionCriadores .subTitleCriadores{
+    color: #231D1980;
+    font-family: 'Jakarta', sans-serif;
+    font-size: 3vh; 
+    margin-left: 0.5vh;
+}
+
+
+.saibaMais a:hover{
+    color: #ffff;
+    transition: 0.5s;
+}
+
+.saibaMais:hover{
+    transition: 1s;
+    background-color: #c6c6c6;
+}
