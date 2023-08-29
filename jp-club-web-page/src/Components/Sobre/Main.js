@@ -2,7 +2,7 @@ import Clube from './ClubeBio';
 import Mascote from './Mascote';
 import Criadores from './Criadores';
 
-function Main(){
+function MainS(){
     return(
         <div>
             <Clube/>
@@ -12,4 +12,4 @@ function Main(){
     )
 }
 
-export default Main;
+export default MainS;

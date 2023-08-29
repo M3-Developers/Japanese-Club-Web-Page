@@ -1,6 +1,6 @@
-import fontsStyle from '../../Assets/Style/Uni/fonts.css'
-import SobreStyle from '../../Assets/Style/Page2/sobre.css'
-import clubeImg from '../../Assets/img/ClubeImg.jpg'
+import fontsStyle from '../../Assets/Style/Uni/fonts.css';
+import SobreStyle from '../../Assets/Style/Page2/sobre.css';
+import clubeImg from '../../Assets/img/ClubeImg.jpg';
 
 function Clube() {
     return(
@@ -12,7 +12,7 @@ function Clube() {
                     <p className='impactTitles'>sobre</p>
 
                     {/* Resumo Barra Vermelha  */}
-                    <div className='barra' />
+                    <div className='barraS' />
 
                     {/* Resumo Titulo */}
                     <h3>Clube da Língua Japonesa</h3>

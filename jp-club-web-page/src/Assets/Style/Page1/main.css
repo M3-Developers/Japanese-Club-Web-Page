@@ -1,35 +1,42 @@
 /* Espaco Primario Formatado Ocupado Pelo Menu Conteudo */
   
-.menu {
+.menuHome {
     display: flex;
     box-sizing: border-box;
     width: 100%;
     height: auto;
-    position: absolute;
+    position: relative;
     margin-top: 80vh;
     flex-direction: column;
   }
 
 /* Espaco Formatado Resumo */
 
+.menuR{
+    padding: 0 25vh; 
+}
+
+.h3R{
+    margin-bottom: 2vh;
+}
+
 article{
     height: 50vh;
-    padding: 0 30vh;
-    margin: 0 0;
+    margin: 0 0 0 0;
 }
 
 /* Resumo Barra Vermelha */
 
-.barra{
+.barraH{
     width: 110vh;
-    height: 0.50vh;
+    height: 0.45vh;
     border-radius: 0.1rem;
     background-color: #BA0028;
 }
 
 /* Resumo Descricao */
 
-.description{
+.descriptionH{
     margin: 8vh 0;
 }
 
@@ -45,7 +52,7 @@ section{
 
 /* Sessao Cards Linha Pontilhada */
 
-hr{
+.barraP{
     width: auto;
     height: 0.50vh;
     border-top: 0.6vh dashed #BA0028;
@@ -61,7 +68,6 @@ hr{
     display: flex;
     box-sizing: border-box;
     flex-direction: row;
-    position: absolute;
     align-items: center;
 }
 

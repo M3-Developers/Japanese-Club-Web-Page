@@ -1,15 +1,10 @@
 import React from 'react';
-import Home from './routes/Home'
-import Sobre from './routes/Sobre'
+import AppRoutes from './routes';
 
 
 function App() {
   return (
-    <div className="App">
-        {/* <Home/> */}
-        <Sobre/>
-    </div>
-
+    <AppRoutes></AppRoutes>
   );
 }
 

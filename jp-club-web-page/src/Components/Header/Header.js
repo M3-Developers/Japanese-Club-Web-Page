@@ -1,60 +1,47 @@
 import React from 'react';
 import headerStyle from '../../Assets/Style/Uni/header.css';
 import japanIcon from '../../Assets/img/japanIcon.svg';
+import { Link } from 'react-router-dom';
 
-function Header(){
-    return(
-    
+function Header() {
+  return (
+    // Corpo do Header
+    <header>
+      {/* Área de Navegação */}
+      <nav>
+        {/* Bandeira do Japão Ícone */}
+        <div>
+          <Link to="/"><img src={japanIcon} className='JapanIcon' alt="JapanIcon" /></Link>
+        </div>
 
-        // Corpo do Header
-        
-        <header>
+        {/* Header Botões */}
+        <div className="Categorias">
+          <div id='sub'>
+            <Link to='/sobre'>Sobre</Link>
+          </div>
+          <div id='sub'>
+            <Link to='/aulas'>Aulas</Link>
+          </div>
+          <div id='sub'>
+            <Link to='/blog'>Blog</Link>
+          </div>
+          <div id='sub'>
+            <Link to='/midias'>Mídias</Link>
+          </div>
+        </div>
 
-            {/* Area de Navegacao */}
-
-            <nav>
-
-                {/* Bandeira do Japao Icone */}
-
-                <div>
-                    <a href="../../App.js"><img src = {japanIcon} className='JapanIcon' alt="JapanIcon"/> </a>
-                </div>
-
-            {/* Header Botoes */}
-
-            <div className="Categorias">
-                <div id='sub'>
-                    <a href="">sobre</a>
-                </div>
-
-                <div id='sub'>
-                    <a href="">aulas</a>
-                </div>
-
-                <div id='sub'>
-                    <a href="">blog</a>
-                </div>
-
-                <div id='sub'>
-                    <a href="">mídias</a>
-                </div>
-            </div>
-
-            {/* Idioma Botoes */}
-            
-            <div className='lang'>
-                <div id='subLang'>
-                    <a href="">jp</a>
-                </div>
-                <div id='subLang'>
-                    <a href="">pt-br</a>
-                </div>
-            </div>
-
-
-            </nav>
-        </header>
-    )
+        {/* Idioma Botões */}
+        <div className='lang'>
+          <div id='subLang'>
+            <a href="">jp</a>
+          </div>
+          <div id='subLang'>
+            <a href="">pt-br</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+  )
 }
 
 export default Header;

@@ -47,8 +47,12 @@ h6{
 
 .impactTitles{
     text-align: center;
-    padding: 0 50%;
+
     font-family: 'Impact';
     font-size: 6vh;
     margin-bottom: 2vh;
+}
+
+p{
+  width: auto;
 }
