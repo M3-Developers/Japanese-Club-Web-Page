@@ -47,12 +47,27 @@ h6{
 
 .impactTitles{
     text-align: center;
-
     font-family: 'Impact';
-    font-size: 6vh;
+    font-size: 7vh;
     margin-bottom: 2vh;
 }
 
 p{
   width: auto;
+}
+
+h1{
+  font-family: 'Arial Rounded MT Bold', sans-serif;
+  font-size: 4vh;
+  color: #1f1f1f;
+  margin-top: 2vh;
+  text-align: center;
+}
+
+.continua{
+  font-size: 9vh;
+  color: #BA0028;
+  margin-bottom: 2vh;
+  text-align: right;
+  margin-right: 5vh;
 }
