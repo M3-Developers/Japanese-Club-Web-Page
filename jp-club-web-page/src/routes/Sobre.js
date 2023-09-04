@@ -6,7 +6,7 @@ import Footer from '../Components/Footer/Footer';
 
 function Sobre(){
     return(
-        <div className="App">
+        <div>
             <Header/>
             <MainS/>
             <Footer/>

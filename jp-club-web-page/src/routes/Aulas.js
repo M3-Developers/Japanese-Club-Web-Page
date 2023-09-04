@@ -1,20 +1,18 @@
 import React from 'react';
 import Header from "../Components/Header/Header";
-import Banner from "../Components/Banner/Banner";
-import Main from "../Components/Main/Main";
 import Footer from "../Components/Footer/Footer";
+import Menu from '../Components/Aulas/Menu';
 
 
-function Home() {
+function Aulas() {
   return (
     <div>
       <Header/>
-      <Banner/>
-      <Main/>
+      <Menu/>
       <Footer/>
     </div>
 
   );
 }
 
-export default Home;
+export default Aulas;
