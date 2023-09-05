@@ -1,5 +1,5 @@
 import {useState} from 'react'
-import botaoStyle from '../../Assets/Style/Page3/AulaBotao.css'
+import botaoStyle from '../../Assets/Style/Page3/aulaBotao.css'
 
 function Botao(props) {
     

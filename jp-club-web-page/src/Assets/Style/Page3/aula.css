@@ -1,0 +1,24 @@
+.menu{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    position: relative;
+    flex-direction: column;
+    margin-top: 8vh;
+    padding: 0 10vh;
+}
+
+.barraA{
+    position: relative;
+    width: 98.5%;
+    height: 0.50vh;
+    border-radius: 0.1rem;
+    background-color: #BA0028;
+    margin: 2vh 0 6vh 2vh;
+}
+
+.bottomContainer{
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}

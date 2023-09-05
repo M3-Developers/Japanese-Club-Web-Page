@@ -7,45 +7,33 @@
     }
   }
 
-  @keyframes diminuir {
-    0% {
-        height: 80vh; /* Altura final (ajuste o valor conforme necessário) */
-    }
-    100% {
-        height: 0; /* Altura inicial (0) */
-    }
-  }
 .aulasContainer{
     width: 100%;
     display: flex;
     box-sizing: border-box;
-    align-self: center;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-left: 2vh;
 }
 
 .off{
     display: none;
-    animation-name: diminuir;
-    animation-duration: 1.33s; /* Duração da animação em segundos */
-    animation-timing-function: ease-in-out; /* Curva de temporização da animação */
-    animation-iteration-count: 1; /* Executa a animação apenas uma vez */
 }
 
 .on{
     display:flex ;
     height: 80vh;
-    width: 120vh;
+    width: 119.8vh;
     background-color: #ffffff;
     border: solid 2px #FF0000;
     margin: -6vh 0vh 0vh 0vh;
     box-shadow: 0.2vh 0.5vh 10px rgba(0, 0, 0, 0.5);
     animation-name: crescer;
-    animation-duration: 1.33s; /* Duração da animação em segundos */
-    animation-timing-function: ease-in-out; /* Curva de temporização da animação */
-    animation-iteration-count: 1; /* Executa a animação apenas uma vez */
-  }
+    animation-duration: 0.33s;
+    animation-timing-function: ease-in-out; 
+    animation-iteration-count: 1; 
+    border-radius: 1vh;
+}
 
 
 .btnOff{
@@ -56,6 +44,7 @@
     background-color:#CFD1D2 ;
     box-shadow: 0vh 0.4vh 10px rgba(0, 0, 0, 0.5);
     z-index: 1;
+    border-radius: 1vh;
 }
 
 .btnOff:hover{
@@ -68,6 +57,7 @@
 .btnOn{
     margin: 2vh 0vh 0vh 0vh;
     border: solid 2px #FF0000;
+    border-radius: 1vh;
     height: 6vh;
     width: 120vh;
     background-color:#FF0000 ;
@@ -83,6 +73,8 @@
     font-size: 2.5vh;
     text-align: left;
     padding-left: 3vh;
+    font-weight: bold;
+    color: #FF0000;
     font-weight: bold;
 }
 
