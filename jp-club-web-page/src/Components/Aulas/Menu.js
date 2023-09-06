@@ -1,6 +1,5 @@
 import {useState} from 'react';
 import Botao from './Botao';
-import SobreStyle from '../../Assets/Style/Page3/aula.css';
 
 function Menu() {
 
@@ -15,22 +14,28 @@ function Menu() {
 
             <div className='bottomContainer'>
 
-            <Botao 
+            <Botao
+                video = 'https://www.youtube.com/embed/AT7TdWydp-c?si=iyIMMxhSF7ms1bf1'
+                title = 'Oque iremos estudar' 
                 txt = 'Sobre o curso'
-                descricao = 'apenas negocios'
+                descricao = '    A Constituição Federal de 1988 é a atual Carta Magna do Brasil, sétima constituição brasileira e sexta como república. Você sabe as características e como ela foi implementada? Então, continue a leitura, pois, neste post, contamos, resumidamente, o que é necessário entender sobre o assunto. Confira!'
             />
 
-            <Botao 
+            <Botao
+                title = 'ola mundo' 
                 txt = 'Hiragana:Definição'
                 descricao = 'muito legal'
             />
 
             <Botao 
+                title = 'ola mundo'
                 txt = 'Katakana: Definição' 
                 descricao = 'alibaba e os 50 ladroes'
             />
 
             <Botao 
+                video ='https://www.youtube.com/watch?v=6p9Il_j0zjc'
+                title = 'ola mundo'
                 txt = 'Kanji:Definição' 
                 descricao = 'alibaba e os 50 ladroes'
             />
@@ -42,21 +47,25 @@ function Menu() {
             <div className='bottomContainer'>
 
             <Botao 
+                title = 'ola mundo'
                 txt = 'O que é o hiragana'
                 descricao = 'apenas negocios'
             />
 
             <Botao 
+                title = 'ola mundo'
                 txt = 'Hiragana:Definição'
                 descricao = 'muito legal'
             />
 
             <Botao 
+                title = 'ola mundo'
                 txt = 'Katakana: Definição' 
                 descricao = 'alibaba e os 50 ladroes'
             />
 
             <Botao 
+                title = 'ola mundo'
                 txt = 'Kanji:Definição' 
                 descricao = 'alibaba e os 50 ladroes'
             />

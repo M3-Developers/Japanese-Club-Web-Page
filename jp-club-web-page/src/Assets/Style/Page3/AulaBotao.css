@@ -21,76 +21,71 @@
 }
 
 .on{
-    display:flex ;
-    height: 80vh;
+    display: block;
+    padding-top: 6vh;
+    height: 65vh;
     width: 119.8vh;
     background-color: #ffffff;
     border: solid 2px #FF0000;
     margin: -6vh 0vh 0vh 0vh;
     box-shadow: 0.2vh 0.5vh 10px rgba(0, 0, 0, 0.5);
     animation-name: crescer;
-    animation-duration: 0.33s;
+    animation-duration: 0.1s;
     animation-timing-function: ease-in-out; 
     animation-iteration-count: 1; 
     border-radius: 1vh;
+
 }
 
-
-.btnOff{
-    margin: 2vh 0vh 0vh 0vh;
-    border: solid 2px #FF0000;
-    height: 6vh;
-    width: 120vh;
-    background-color:#CFD1D2 ;
-    box-shadow: 0vh 0.4vh 10px rgba(0, 0, 0, 0.5);
-    z-index: 1;
-    border-radius: 1vh;
-}
-
-.btnOff:hover{
-    background-color: #FF0000;
-    transition: 0.5s ease-in;
-    box-shadow: 0.4vh 0.8vh 10px rgba(0, 0, 0, 0.5);
-}
-
-
-.btnOn{
-    margin: 2vh 0vh 0vh 0vh;
-    border: solid 2px #FF0000;
-    border-radius: 1vh;
-    height: 6vh;
-    width: 120vh;
-    background-color:#FF0000 ;
-    z-index: 1;
-}
-
-
-.btntxtOff{
-    padding-top:1vh ;
-    height: 6vh;
-    width: 120vh;
+/* Estilo para o contêiner do texto */
+.on article {
+    margin: -45vh 0 0 64vh;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: flex-start; /* Alinhe os elementos à esquerda */
+  }
+  
+.on p{
+    margin-bottom: 5vh;
     font-family: 'Jakarta', sans-serif;
-    font-size: 2.5vh;
-    text-align: left;
-    padding-left: 3vh;
+    font-size: 4.5vh;
     font-weight: bold;
-    color: #FF0000;
-    font-weight: bold;
+} 
+
+.on h6{
+    width: 52vh;
+    font-size: 3vh;
 }
 
-.btntxtOff:hover{
-    color: #ffffff;
-    transition: 0.5s;
+.menu{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    position: relative;
+    flex-direction: column;
+    margin-top: 8vh;
+    padding: 0 10vh;
 }
 
-.btntxtOn{
-    padding-top:1vh ;
-    height: 6vh;
-    width: 120vh;
-    font-family: 'Jakarta', sans-serif;
-    font-size: 2.5vh;
-    text-align: left;
-    padding-left: 3vh;
-    font-weight: bold;
-    color: #ffffff;
+.barraA{
+    position: relative;
+    width: 98.5%;
+    height: 0.50vh;
+    border-radius: 0.1rem;
+    background-color: #BA0028;
+    margin: 2vh 0 6vh 2vh;
+}
+
+.bottomContainer{
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+
+#aulaMP4{
+    position: relative;
+    margin: 13vh 0 0 4vh;
+    height: 37.0625vh;
+    width:  55vh;
 }

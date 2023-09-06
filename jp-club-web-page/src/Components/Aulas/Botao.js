@@ -1,5 +1,7 @@
-import {useState} from 'react'
-import botaoStyle from '../../Assets/Style/Page3/aulaBotao.css'
+import {useState} from 'react';
+import btnAulas from '../../Assets/Style/Page3/btnAulas.css';
+import aulasStyle from '../../Assets/Style/Page3/aulaBotao.css';
+import criadoresImg from '../../Assets/img/criadoresImg.png';
 
 function Botao(props) {
     
@@ -33,9 +35,27 @@ function Botao(props) {
                <p className ={BtnTxt}>{props.txt}</p>
             </button>
             <div className={State}>
-            <h6>
-                {props.descricao}
-            </h6>
+
+                <figure>
+                <iframe  id='aulaMP4'
+                            src= {props.video} 
+                            width="560"
+                            height="315"  
+                            frameborder="0"
+                            allowfullscreen >
+                            </iframe>
+                </figure>
+
+                <article>
+                    <p>
+                        {props.title}
+                    </p>
+
+                    <h6>
+                        {props.descricao}
+                    </h6>
+                 </article>
+                
             </div>
 
         </div>
