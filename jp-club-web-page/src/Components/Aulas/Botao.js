@@ -42,11 +42,13 @@ function Botao(props) {
                             width="560"
                             height="315"  
                             frameborder="0"
-                            allowfullscreen >
+                            allowFullScreen >
                             </iframe>
                 </figure>
 
-                <article>
+
+                    <article>
+
                     <p>
                         {props.title}
                     </p>
@@ -54,7 +56,10 @@ function Botao(props) {
                     <h6>
                         {props.descricao}
                     </h6>
-                 </article>
+
+                    <div className='btnDoc'><a href={props.arquivo} download>PDF</a></div>
+
+                    </article>
                 
             </div>
 
