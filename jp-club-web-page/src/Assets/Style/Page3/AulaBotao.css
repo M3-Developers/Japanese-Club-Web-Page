@@ -1,4 +1,4 @@
-@keyframes crescer {
+@keyframes crescer {/*Animação do botão*/
     0% {
       height: 0; /* Altura inicial (0) */
     }
@@ -7,6 +7,7 @@
     }
   }
 
+  /*Estilo da divisão geral do componente Botao*/
 .aulasContainer{
     width: 100%;
     display: flex;
@@ -16,24 +17,26 @@
     margin-left: 2vh;
 }
 
+/*Destruindo a divisão*/
 .off{
     display: none;
 }
 
+/*Classe da divisão do botão quando está ativa*/
 .on{
     display: block;
-    padding-top: 6vh;
-    height: 65vh;
-    width: 119.8vh;
-    background-color: #ffffff;
-    border: solid 2px #FF0000;
-    margin: -6vh 0vh 0vh 0vh;
-    box-shadow: 0.2vh 0.5vh 10px rgba(0, 0, 0, 0.5);
-    animation-name: crescer;
-    animation-duration: 0.1s;
-    animation-timing-function: ease-in-out; 
-    animation-iteration-count: 1; 
-    border-radius: 1vh;
+    padding-top: 6vh;/**/
+    height: 65vh;/*Altura da divisão*/
+    width: 119.8vh;/*Largura*/
+    background-color: #ffffff;/*Cor de fundo*/
+    border: solid 2px #FF0000;/*Borda*/
+    margin: -6vh 0vh 0vh 0vh;/*Margem*/
+    box-shadow: 0.2vh 0.5vh 10px rgba(0, 0, 0, 0.5);/*Sombra das bordas*/
+    animation-name: crescer;/*Nome da animação*/
+    animation-duration: 0.1s;/*Duração da animação*/
+    animation-timing-function: ease-in-out; /*Formato de animação*/
+    animation-iteration-count: 1; /*Retiçoes da animação*/
+    border-radius: 1vh;/*Curvatura da borda*/
 
 }
 
@@ -46,6 +49,7 @@
     align-items: flex-start; /* Alinhe os elementos à esquerda */
   }
   
+/*Estilo para o titulo da divisão*/
 .on p{
     margin-bottom: 5vh;
     font-family: 'Jakarta', sans-serif;
@@ -53,11 +57,14 @@
     font-weight: bold;
 } 
 
+/*estilo da descrição da divisão*/
 .on h6{
     width: 52vh;
     font-size: 3vh;
+    height: 34vh;
 }
 
+/*Classe da divisão principal*/
 .menu{
     display: flex;
     box-sizing: border-box;
@@ -69,6 +76,7 @@
     padding: 0 10vh;
 }
 
+/*Estilo da barra horizontal vermelha*/
 .barraA{
     position: relative;
     width: 98.5%;
@@ -83,6 +91,7 @@
     margin-bottom: 10vh;
 }
 
+/*Estilo do ID do iframe dos videos*/
 #aulaMP4{
     position: relative;
     margin: 13vh 0 0 4vh;
@@ -90,6 +99,7 @@
     width:  55vh;
 }
 
+/*Estilização da divisão do botão*/
 .btnDoc{
     align-self: center;
     padding: 0.4vh 0;
@@ -105,7 +115,7 @@
     
 }
 
-
+/*Estilização do link*/
 .btnDoc a{
     text-decoration: none;
     color: #ffff;
@@ -115,6 +125,7 @@
     width: 35vh;
 }
 
+/*Efeito de transição nas tags do botão*/
 .btnDoc:hover{
     width: 35vh;
     border-bottom: 1.33vh solid #000;

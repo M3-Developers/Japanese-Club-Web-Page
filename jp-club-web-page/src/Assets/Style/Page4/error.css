@@ -1,0 +1,38 @@
+/*Estilização da parte branca da tela de erro*/
+.mainError{
+    height: 60.05vh;
+    display: flex;
+    padding: 0 7.5vh;
+}
+
+/*Estilização da divisão dos textos*/
+.mainError article{
+    display: flex;
+    flex-direction: column;
+    width: 85vh;
+}
+
+/*Estilização do gradiante antes do footer*/
+.effect{
+    background-color: #EFE9E5;
+    height: 10vh;
+}
+
+/*Estilização da imagem*/
+.ImageHaru{
+    margin-top: 5vh;
+    height: 50vh;
+}
+
+/*Estilização do titulo de #404*/
+.mainError h3{
+    margin-left: 0vh;
+    width: 85vh;
+}
+
+/*Estilização da descrição do erro*/
+.mainError h6{
+    margin-top: 2vh;
+    font-weight: bold;
+    width: 85vh;
+}

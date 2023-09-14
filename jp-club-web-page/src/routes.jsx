@@ -1,18 +1,24 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom"
-import Home from './routes/Home'
-import Sobre from './routes/Sobre'
-import Aulas from './routes/Aulas'
+//Importando componente das paginas
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from './routes/Home';
+import Sobre from './routes/Sobre';
+import Aulas from './routes/Aulas';
+import Error from './routes/Error';
 
+//Criando componente de rotas
 function AppRoutes() {
     return (
+        //Rotas para cada pagina
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={ <Home /> }></Route>
-                <Route path="/sobre" element={ <Sobre /> }></Route>
-                <Route path="/aulas" element={ <Aulas/> }></Route>
+                <Route path="/" element={ <Home /> }></Route>{/*Rota de home*/}
+                <Route path="/sobre" element={ <Sobre /> }></Route>{/*Rota de sobre*/}
+                <Route path="/aulas" element={ <Aulas/> }></Route>{/*Rota de aula*/}
+                <Route path="*" element={ <Error /> }></Route> {/*Rota de erro*/}
             </Routes>
         </BrowserRouter>
     )
 }
 
-export default AppRoutes
+//Exportando o componente rotas
+export default AppRoutes;
