@@ -1,0 +1,113 @@
+/* Espaco Primario Formatado Ocupado Pelo Menu Conteudo */
+  
+.menu {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    position: relative;
+    flex-direction: column;
+  }
+
+/* Espaco Formatado Resumo */
+
+article{
+    height: auto;
+    align-self: center;
+    margin: 0 0 10vh 0;
+    width: auto;
+}
+
+.midiaContainer{
+    width: auto;
+    margin-left: 22vh;
+}
+
+.MidiasTitle{
+    color: #000;
+    margin-bottom: 5vh;
+}
+
+.instaConteiner{
+    margin: 0 0 10vh 2.5vh;
+    width: 130vh;
+    height: 48vh;
+    border: 0.1vh solid  #BA0028 ;
+    border-radius: 0.5vh;
+    border-left: 6vh solid #BA0028 ;
+    display: flex;
+    box-sizing: border-box;
+    padding: 3vh 0 0 8vh;
+}
+
+.haruChibi{
+    height: 45vh;
+    width: auto;
+}
+
+.instaTxt{
+    display: flex;
+    flex-direction: column;
+}
+
+.instaBotton{
+    padding: 1.5vh 0 0vh 0 ;
+    text-align: center;
+    margin-left: 1vh;
+    width: 22vh;
+    height: 4.8vh;
+    border-radius: 1.5vh;
+    box-shadow: 0vh 0.4vh 10px rgba(0, 0, 0, 0.5);
+}
+
+.instaBotton:hover{
+    transition: 0.5s;
+    background-color: gray;
+    padding: 1.5vh 0 0vh 0 ;
+    text-align: center;
+    margin-left: 1vh;
+    width: 22vh;
+    height: 4.8vh;
+    border-radius: 1.5vh;
+    box-shadow: 0vh 0.4vh 10px rgba(0, 0, 0, 0.704);
+}
+
+.youtubeConteiner{
+    margin: 0 0 10vh 2.5vh;
+    width: 130vh;
+    height: 50vh;
+    border: 0.1vh solid  #BA0028 ;
+    border-radius: 0.5vh;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.leftContent{
+    position: absolute;
+    height: 100%;
+    width: 57vh;
+    background-color: #BA0028;
+}
+
+.ytIcon{
+    margin: 7vh 0 0 45vh ;    
+}
+
+.rightContent{
+    height: 100%;
+    width: auto;
+    display: flex;
+    color: #ffffff00;
+    text-decoration: none;
+    justify-content: center;
+    background-image: url(../../img/japanwallpaper.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ytQRCode{
+    width: 30vh;
+    height: auto;
+    margin-left: 30vh;
+}

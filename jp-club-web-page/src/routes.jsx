@@ -4,6 +4,8 @@ import Home from './routes/Home';
 import Sobre from './routes/Sobre';
 import Aulas from './routes/Aulas';
 import Error from './routes/Error';
+import Blog from './routes/Blog';
+import Midia from './routes/Midias';
 
 //Criando componente de rotas
 function AppRoutes() {
@@ -14,6 +16,8 @@ function AppRoutes() {
                 <Route path="/" element={ <Home /> }></Route>{/*Rota de home*/}
                 <Route path="/sobre" element={ <Sobre /> }></Route>{/*Rota de sobre*/}
                 <Route path="/aulas" element={ <Aulas/> }></Route>{/*Rota de aula*/}
+                <Route path="/blog" element={ <Blog/> }></Route>{/*Rota do Blog*/}
+                <Route path="/midias" element={ <Midia/> }></Route>{/*Rota do Midia*/}
                 <Route path="*" element={ <Error /> }></Route> {/*Rota de erro*/}
             </Routes>
         </BrowserRouter>

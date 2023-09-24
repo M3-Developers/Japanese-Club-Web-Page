@@ -72,3 +72,88 @@ h1{
   text-align: right;
   margin-right: 5vh;
 }
+
+.instaName{
+  font-family: 'Arial Rounded MT Bold', sans-serif;
+  font-size: 2.5vh;
+  color: #231D1970;
+  margin: 10vh 0 0.3vh 0.3vh;
+}
+
+.instaTitle{
+  font-family: 'Arial Rounded MT Bold', sans-serif;
+  font-size: 3.5vh;
+  color: #BA0028;
+  margin-bottom: 2vh;
+}
+
+.instaBottonTxt{
+  font-family: 'Arial Rounded MT Bold', sans-serif;
+  font-size: 2.5vh;
+  color: rgb(86, 86, 86);
+  padding: 1.9vh 1.35vh;
+}
+
+.instaBottonTxt:hover{
+  font-family: 'Arial Rounded MT Bold', sans-serif;
+  font-size: 2.5vh;
+  color: #fff;
+  padding: 1.9vh 1.35vh;
+  transition: 0.5s;
+}
+
+.categoriasContent{
+  padding: 0 1vh 0.3vh 1vh;
+  font-size: 2.3vh;
+  font-family: 'Arial Rounded MT Bold', sans-serif;
+  color: #fff;
+  border-radius: 1vh;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.634);
+  margin-right: 2vh;
+}
+
+.dataContent{
+  padding: 0 1vh 0.3vh 1vh;
+  font-size: 2.3vh;
+  font-family: 'Arial Rounded MT Bold', sans-serif;
+  color: #fff;
+  border-radius: 1vh;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.634);
+  margin-right: 2vh;
+}
+
+.categorias2 a{
+  padding: 0 1vh 0.3vh 1vh;
+  font-size: 2.3vh;
+  font-family: 'Arial Rounded MT Bold', sans-serif;
+  color: #BA0028;
+  border-radius: 1vh;
+  text-align: center;
+  background-color: #ECECEC;
+  margin: 1vh 2vh;
+}
+
+.categoriaTxt{
+  font-size: 3vh;
+  font-family: 'Arial Rounded MT Bold', sans-serif;
+  color: #000000;
+  border-radius: 1vh;
+  text-align: center;
+  margin-bottom: 1vh;
+}
+
+.youtubeTitle{
+  font-family: 'Arial Rounded MT Bold', sans-serif;
+  font-size: 4.2vh;
+  color: #fff;
+  margin: 11vh 0 0 5vh;
+}
+
+.youtubeDescription{  
+  font-family: 'Jakarta', sans-serif;
+  font-size: 3vh;
+  color: #fff;
+  margin: 3vh 0 0 5vh;
+}

@@ -1,0 +1,48 @@
+.BlocoNews{
+    width: 50vw;
+    height: 27vh;
+
+    border:
+     solid 
+     0.33vh
+      #FF0000;
+    border-radius: 1.5vh;
+    box-shadow: 0.2vh 0.5vh 10px rgba(0, 0, 0, 0.5);/*Sombra das bordas*/
+
+
+    margin: 7vh 43vh;
+
+    display: flex;
+}
+
+figure img{
+    border-radius: 1.2vh 0 0 1.2vh;
+    width: auto;
+    height: 27vh;
+}
+
+.txtContainer{
+    box-sizing: border-box;
+    width: 60vh;
+    margin-left: 2vh;
+    max-width: 60vh;
+    overflow-x: inherit;
+}
+
+.txtNewsCard{
+    font-size: 4vh;
+    width: 30.5vw;
+    margin: 8vh 0 2vh 0;
+}
+
+.txtNewsCard2{
+    font-size: 2vh;
+    width: 30.5vw;
+}
+
+.direction{
+    margin-top: 6vh;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+}

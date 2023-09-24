@@ -1,0 +1,29 @@
+.flex{
+    display: flex;
+    flex-direction: row
+}
+
+.categorias2{
+    border: 0.33vh solid #ff2020;
+    border-radius: 2vh;
+
+    height: 37vh;
+    width: 28vh;
+
+    left:0;
+    position: fixed;
+    margin-left: 3vw;
+
+    background-color: #fff;
+    box-shadow: 0.2vh 0.5vh 10px rgba(0, 0, 0, 0.204);/*Sombra das bordas*/
+
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.filterIcon{
+    margin: 2vh 0 0 -2vh;
+    width: 4vh;
+    height: auto;
+}
