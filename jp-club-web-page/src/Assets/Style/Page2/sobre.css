@@ -127,10 +127,15 @@ iframe{
     text-align: center;
     height: 4.5vh;
     width: 25vh;
-    border: 0.5vh solid #000;
     border-radius: 2.5vh;
     margin-top: 8vh;
-    background-color: #BA0028;
+    background-color: #ffff;
+    color: rgb(86, 86, 86);
+    box-shadow: 0vh 0.4vh 10px rgba(0, 0, 0, 0.704);
+}
+
+.saibaMais a{
+    color: rgb(86, 86, 86);
 }
 
 .criadoresConteiner{
@@ -160,13 +165,14 @@ iframe{
 
 
 .saibaMais a:hover{
-    color: #BA0028;
+    color: #fff;
     transition: 0.5s;
 }
 
 .saibaMais:hover{
     transition: 1s;
-    background-color: #fff;
+    background-color: gray;
+    box-shadow: 0vh 0.4vh 10px rgba(0, 0, 0, 0.704);
 }
 
 .menuSobre {

@@ -22,7 +22,7 @@ function Criadores() {
                             <p className='subTitleCriadores'>M3 Developers</p>    
                             Confira nosso grupo de desenvolvimento
 
-                            <div className='saibaMais'><a href='https://google.com.br/'>saiba mais</a></div>
+                            <div className='saibaMais'><a href='https://youtube.com/@M3Devs?si=6SAXr-PNy82WY12W'>saiba mais</a></div>
                         </h6>
                         
                         </div>
