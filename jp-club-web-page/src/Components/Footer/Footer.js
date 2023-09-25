@@ -17,7 +17,7 @@ function Footer(){
 
             <div className='footerLink'> {/* Alinhamento M3 Midias Footer Link */}
                 <p>
-                    <a href="https://www.youtube.com.br">YouTube </a> | 
+                    <a href="https://youtube.com/@M3Devs?si=yUyhk_9La5v_XlJD">YouTube </a> | 
                     <a href="https://github.com/M3-Developers">  GitHub</a> | 
                     <a href="mailto: devs.m3group@gmail.com">  Email</a> |
                     <a href="https://www.google.com.br/">  Sobre</a>

@@ -97,10 +97,33 @@ section{
     color: #ffffff00;
     text-decoration: none;
     justify-content: center;
-    background-image: url(../../img/rukia.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+#firstCard{
+    background-image: url(../../img/firstCulminancia.jpg);
+}
+
+#secondCard{
+    background-image: url(../../img/secondCard.jpg);
+}
+
+#thirdCard{
+    background-image: url(../../img/temporario.png);
+}
+
+#fourthCard{
+    background-image: url(../../img/temporario.png);
+}
+
+#fifthCard{
+    background-image: url(../../img/fifthCard.png);
+}
+
+#sixthCard{
+    background-image: url(../../img/sixthCard.jpg);
 }
 
 /* Card Alinhamento Titulo Interno */
@@ -108,6 +131,8 @@ section{
 .card p{
     position: absolute;
     margin: 25vh 0 0 0 ;
+    text-align: center;
+    max-width: 17vh;
 }
 
 /* Card Efeito */

@@ -1,7 +1,7 @@
 import newsStyle from '../../Assets/Style/Page5/NewsComponent.css'
 import fontStyle from '../../Assets/Style/Uni/fonts.css'
 
-function News() {
+function News(props) {
 
     const IMG ="https://images2.alphacoders.com/132/1323416.jpeg";
 
@@ -25,16 +25,16 @@ function News() {
                 <div className = 'direction'>
 
                     <p id='animeId' className='categoriasContent'>
-                        anime
+                        {props.catego}
                     </p>
-
+{/* 
                     <p id='culminanciaId' className='categoriasContent'>
                         culminância
                     </p>
                     
                     <p id='culturaId' className='categoriasContent'>
                         cultura
-                    </p>
+                    </p> */}
 
                     <p id='240923' className='dataContent'>
                         24/09/2023
