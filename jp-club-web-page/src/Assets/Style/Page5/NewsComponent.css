@@ -35,6 +35,11 @@ figure img{
     margin: 8vh 0 2vh 0;
 }
 
+.txtNewsCard a{
+    text-decoration: none;
+    color: #FF0000;
+}
+
 .txtNewsCard2{
     font-size: 2vh;
     width: 30.5vw;

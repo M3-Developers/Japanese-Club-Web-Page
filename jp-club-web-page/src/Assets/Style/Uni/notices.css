@@ -1,0 +1,50 @@
+#noticeMedia{
+    width: 560px;
+    height: 315px;  
+}
+
+#firstMedia{
+    width: 45vh;
+    box-shadow: inset 0 0 120px #000;
+    margin-left: 5vh;
+}
+
+#secondMedia{
+    /* align-items: center;
+    justify-content: center;
+    display: flex; */
+}
+
+.mancheteTitle{
+    margin: 10vh 1vw 0vh 1vw;
+    font-size: 7.5vh;
+    color: rgb(222, 0, 44);
+    font-weight: bold;
+}
+
+.mancheteTxt{
+    color: grey;
+    text-align: center;
+    font-size: 4vh;
+}
+
+.firstNoticeContainer{
+    margin: 7.5vh 12vw;
+    display: flex;
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+}
+
+.secondNoticeContainer{
+    flex-direction: column;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    margin: 7.5vh 12vw;
+}
+
+.secondNoticeContainer iframe{
+    margin-left: -2vh;
+    border: inset 1.5vh #BA0028;
+}

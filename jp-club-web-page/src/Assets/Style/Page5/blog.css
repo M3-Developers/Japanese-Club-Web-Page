@@ -3,11 +3,11 @@
     flex-direction: row
 }
 
-.categorias2{
+.categoriasConteiner{
     border: 0.33vh solid #ff2020;
     border-radius: 2vh;
 
-    height: 37vh;
+    height: 40vh;
     width: 28vh;
 
     left:0;
@@ -26,4 +26,14 @@
     margin: 2vh 0 0 -2vh;
     width: 4vh;
     height: auto;
+}
+
+#IdOff{
+    background-color: white;
+    cursor:pointer;
+}
+
+#IdOn{
+    background-color: rgba(128, 128, 128, 0.774);
+    color: rgb(244, 244, 244);
 }

@@ -3,22 +3,20 @@ import fontStyle from '../../Assets/Style/Uni/fonts.css'
 
 function News(props) {
 
-    const IMG ="https://images2.alphacoders.com/132/1323416.jpeg";
-
     return(
         <div>
             <div className = 'BlocoNews'>
                 <figure>
-                    <img src={IMG}/>
+                <a href={props.link}> <img src={props.image}/> </a>
                 </figure>
 
                 <article className= 'txtContainer'>
                     <h3 className ='txtNewsCard'>
-                        Jujutsu Kaisen
+                        <a href={props.link}>{props.title}</a>
                     </h3>
 
                     <h6 className ='txtNewsCard2'>
-                    Como o autor morreu mudaram tudo e blá blá blá tá boa mas tá ruim veja pra ter uma opinião é isso ai não sei mais como enxer linguiça
+                        {props.txt}
                     </h6>
 
                     
@@ -37,7 +35,7 @@ function News(props) {
                     </p> */}
 
                     <p id='240923' className='dataContent'>
-                        24/09/2023
+                        {props.data}
                     </p>
                 </div>
 

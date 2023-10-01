@@ -25,7 +25,7 @@ function Clube() {
                             <img src = {clubeImg} className='ClubImg' alt="ClubeImagem"/>
 
                             <iframe 
-                            src="https://www.youtube.com/embed/kfyfMtHd9Ww" 
+                            src="https://www.youtube.com/embed/NPX6_qfUIhw"
                             width="560"
                             height="315"  
                             frameborder="0"

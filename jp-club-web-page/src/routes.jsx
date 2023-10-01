@@ -6,6 +6,7 @@ import Aulas from './routes/Aulas';
 import Error from './routes/Error';
 import Blog from './routes/Blog';
 import Midia from './routes/Midias';
+import NPage1 from './routes/NewsPages/Page1'
 
 //Criando componente de rotas
 function AppRoutes() {
@@ -18,6 +19,7 @@ function AppRoutes() {
                 <Route path="/aulas" element={ <Aulas/> }></Route>{/*Rota de aula*/}
                 <Route path="/blog" element={ <Blog/> }></Route>{/*Rota do Blog*/}
                 <Route path="/midias" element={ <Midia/> }></Route>{/*Rota do Midia*/}
+                <Route path="/notice1" element={ <NPage1/> }></Route>
                 <Route path="*" element={ <Error /> }></Route> {/*Rota de erro*/}
             </Routes>
         </BrowserRouter>

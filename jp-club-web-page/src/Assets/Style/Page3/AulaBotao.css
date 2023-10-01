@@ -97,6 +97,7 @@
     margin: 13vh 0 0 4vh;
     height: 37.0625vh;
     width:  55vh;
+    border: inset 0.5vh #BA0028;
 }
 
 /*Estilização da divisão do botão*/
