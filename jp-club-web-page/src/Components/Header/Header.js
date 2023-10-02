@@ -16,26 +16,26 @@ function Header() {
 
         {/* Header Botões */}
         <div className="Categorias">
-          <div id='sub'>
+          <div className='sub'>
             <Link to='/sobre'>Sobre</Link>
           </div>
-          <div id='sub'>
+          <div className='sub'>
             <Link to='/aulas'>Aulas</Link>
           </div>
-          <div id='sub'>
+          <div className='sub'>
             <Link to='/blog'>Blog</Link>
           </div>
-          <div id='sub'>
+          <div className='sub'>
             <Link to='/midias'>Mídias</Link>
           </div>
         </div>
 
         {/* Idioma Botões */}
         <div className='lang'>
-          <div id='subLang'>
+          <div className='subLang'>
             <a href="">jp</a>
           </div>
-          <div id='subLang'>
+          <div className='subLang'>
             <a href="">pt-br</a>
           </div>
         </div>

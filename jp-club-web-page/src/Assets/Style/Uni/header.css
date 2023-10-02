@@ -51,14 +51,14 @@ nav{
 
 /* Formatacao de Botao Esquerda */
 
-.Categorias #sub{
+.Categorias .sub{
     margin: 1.5vh 0 0 0;
     padding: 0.625vh 1vh 1.5vh 2.5vh;
 }
 
 /* Efeito de Botao Esquerda */
 
-.Categorias #sub:hover{
+.Categorias .sub:hover{
     position: relative;
     padding: 2.5vh 0.005vh;
     margin: -0.57vh 1vh -1.7vh 2.5vh;
@@ -70,9 +70,25 @@ nav{
 .Categorias a{
     padding: 1vh 1.5vh 4vh 1.5vh;
     color: #ffff;
-    font: 2.7vh Arial Rounded MT Bold;
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    font-size: 2.7vh;
     text-decoration: none;
 }
+
+.sub{
+    color: #ffff;
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    font-size: 2.7vh;
+    text-decoration: none;
+}
+
+#subLang{
+    color: #ffff;
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    font-size: 2.7vh;
+    text-decoration: none;
+}
+
 
 /* Alinhamento de Botoes Direita */
 
@@ -86,7 +102,7 @@ nav{
 
 /* Formatacao de Botao Direita */
 
-.lang #subLang{
+.lang .subLang{
     margin: 1.5vh 0vh 2vh 1.3vh;
     padding: 0.5vh 0vh 1vh 0vh;
     background-color: #B0B0B059;
@@ -97,24 +113,25 @@ nav{
 
 /* Efeito de Botao Direita */
 
-.lang #subLang:hover{
+.lang .subLang:hover{
     background-color: #ffff;
     transition: 0.5s;
-    color: #f15836;
+    color: #DB180F;
 }
 
 /* Efeito de Texto Botao Direita */
 
 .lang a:hover{
     transition: 0.5s;
-    color: #f15836;
+    color: #DB180F;
 }
 
 /* Formatacao de Texto Ancora Botao Direita */
 
 .lang a{
     color: #ffff;
-    font: 2.7vh Arial Rounded MT Bold;
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    font-size: 2.7vh;
     text-decoration: none;
     padding: 1vh 1.5vh 4vh 1.5vh;
 }

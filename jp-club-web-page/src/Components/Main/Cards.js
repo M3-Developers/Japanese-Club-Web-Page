@@ -17,22 +17,22 @@ function Cards() {
 
 
                 {/* Card 1 */}
-                <a href="/notice1"><div className='card' id='firstCard'><p>Primeira Culminância</p></div></a>
+                <a href="blog/notice1"><div className='card' id='firstCard'><p>Primeira Culminância</p></div></a>
 
                 {/* Card 2 */}
-                <a href="/notice1"><div className='card' id='secondCard'><p>Passeio Liberdade</p></div></a>
+                <a href="blog/notice1"><div className='card' id='secondCard'><p>Passeio Liberdade</p></div></a>
 
                 {/* Card 3 */}
-                <a href="/notice1"><div className='card' id='thirdCard'><p>Card Provisório</p></div></a>
+                <a href="blog/notice1"><div className='card' id='thirdCard'><p>Card Provisório</p></div></a>
 
                 {/* Card 4 */}
-                <a href="/notice1"><div className='card' id='fourthCard'><p>Card Provisório</p></div></a>
+                <a href="blog/notice1"><div className='card' id='fourthCard'><p>Card Provisório</p></div></a>
 
                 {/* Card 5 */}
                 <a href="../../App.js"><div className='card' id='fifthCard'><p>Em Breve</p></div></a>
 
                 {/* Card 6 */}
-                <a href="/notice1"><div className='card' id='sixthCard'><p>Conheça os Devs</p></div></a>
+                <a href="blog/notice1"><div className='card' id='sixthCard'><p>Conheça os Devs</p></div></a>
 
 
         </div>

@@ -10,7 +10,7 @@ const componentes = [
     texto: "BLEACH: A Guerra Sangrenta dos Mil Anos finaliza seu segundo cour",
     tempo: "01/10/2023",
     categoria: "anime",
-    LinkBlog: "/notice1",
+    LinkBlog: "blog/notice1",
   },
   {
     IMG: "https://drive.google.com/uc?export=view&id=1mXV9-JqsJJBQ-Z2TUr6xed_Eny2jYOz2",
@@ -18,7 +18,7 @@ const componentes = [
     texto: "Descrição Provisória",
     tempo: "XX/XX/202X",
     categoria: "curiosidades",
-    LinkBlog: "/notice1",
+    LinkBlog: "blog/notice1",
   },
   {
     IMG: "https://drive.google.com/uc?export=view&id=1VWzAU1LUz_1zuq_2lAQ1XJeD1DGGC6A8",
@@ -26,7 +26,7 @@ const componentes = [
     texto: "Pelo mesmo Estúdio de JoJo's, animação terá estreia em Outubro.",
     tempo: "18/09/2023",
     categoria: "anime",
-    LinkBlog: "/notice1",
+    LinkBlog: "blog/notice1",
   }, // ...
 
   {
@@ -35,7 +35,7 @@ const componentes = [
     texto: "Conheça o anime New Game!",
     tempo: "XX/10/2023",
     categoria: "anime",
-    LinkBlog: "/notice1",
+    LinkBlog: "blog/notice1",
   }, // ...
 
   {
@@ -44,7 +44,7 @@ const componentes = [
     texto: "Descrição Provisória",
     tempo: "XX/XX/202X",
     categoria: "cultura",
-    LinkBlog: "/notice1",
+    LinkBlog: "blog/notice1",
   }, // ...
 
   {
@@ -53,7 +53,7 @@ const componentes = [
     texto: "Descrição Provisória",
     tempo: "XX/XX/202X",
     categoria: "cultura",
-    LinkBlog: "/notice1",
+    LinkBlog: "blog/notice1",
   }, // ...
 
   {
@@ -62,7 +62,7 @@ const componentes = [
     texto: "Descrição Provisória",
     tempo: "XX/XX/202X",
     categoria: "curiosidades",
-    LinkBlog: "/notice1",
+    LinkBlog: "blog/notice1",
   }, // ...
 
   {
@@ -71,7 +71,7 @@ const componentes = [
     texto: "Confira em detalhes sobre o nosso primeiro evento!",
     tempo: "01/07/2023",
     categoria: "culminancia",
-    LinkBlog: "/notice1",
+    LinkBlog: "blog/notice1",
   }, // ...
   {
     IMG: "https://drive.google.com/uc?export=view&id=1mXV9-JqsJJBQ-Z2TUr6xed_Eny2jYOz2",
@@ -79,7 +79,7 @@ const componentes = [
     texto: "Descrição Provisória",
     tempo: "XX/XX/202X",
     categoria: "culminancia",
-    LinkBlog: "/notice1",
+    LinkBlog: "blog/notice1",
   }, // ...
 ];
 
