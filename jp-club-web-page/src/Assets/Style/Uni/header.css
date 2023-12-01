@@ -16,7 +16,7 @@
 
 header{
     width: 100%;
-    height: 10vh;
+    height: 100%;
     background-color: #DB180F;
     display: flex;
     box-sizing: border-box;
